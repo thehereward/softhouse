@@ -1,0 +1,21 @@
+<head>
+  <title>Softhouse</title>
+</head>
+
+<body>
+  {{> dinner}}
+</body>
+
+<template name="dinner">
+  <h1>Who is in for dinner tonight?</h1>
+  <h2>{{today}}</h2>
+  {{#each people}}
+    {{> person}}
+  {{/each}}
+</template>
+
+<template name="person">
+  <div class="person">
+      <span class="name {{havingDinner}}">{{name}}</span> 
+  </div>
+</template>

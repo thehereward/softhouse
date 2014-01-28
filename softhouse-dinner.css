@@ -1,0 +1,40 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    margin: 50px 0;
+    padding: 0;
+    text-align: center;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#outer {
+    width: 600px;
+    margin: 0 auto;    
+}
+
+.person {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.person .name {
+    display: inline-block;
+    width: 300px;
+    font-size: 3em;
+}
+
+.person .havingDinner {
+    background-color: green;
+}
+
+.person .notHavingDinner {
+    background-color: red;
+}
+
+.person .dateLastSeen {
+    font-size: 1em;
+}
